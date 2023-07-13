@@ -1,0 +1,105 @@
+*{ 
+    margin-block-end: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1500px;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.Bangladesh{
+    display: flex;
+    width: 100%;
+    height: auto;
+    gap: 2rem;
+    justify-content: center;
+    align-items: start;
+}
+.Bangladesh-article{
+    width: auto;
+    height: auto;
+    padding-left:1rem;
+}
+.Dhaka-article{
+    width: auto;
+    height: auto;
+    padding-left:1rem;
+}
+.primary-img{
+    width: 50rem;
+    height: auto;
+
+}
+.primary-img>img{
+    width:50rem;
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border-radius: 1rem;
+}
+.primary-heading{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.primary-para{
+    font-size: 1.5rem;
+    line-height: normal;
+}
+.Dhaka{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: start;
+}
+
+@media screen and (max-width:800px) {
+    body{
+        width: 800px;
+        margin: 5rem auto;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+
+    .Bangladesh{
+        display: flex;
+        flex-direction: column;
+    }
+    .Dhaka{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .primary-img{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .primary-img>img{
+        width: 40rem;
+        height: 30rem;
+    }
+    .primary-para{
+        font-size: 1.5rem;
+        padding: 0 2rem 0rem 2rem;
+    }
+    .primary-heading{
+        font-size: 2rem;
+    }
+
+
+
+
+
+}
